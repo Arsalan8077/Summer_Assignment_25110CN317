@@ -9,7 +9,7 @@ int main ()
     scanf("%d",&n);
     for(int i=1;i<=n;i++)
     {
-         result=result*x;
+         result=result*x;// give thye desired result by giving power of that number
     }
     printf("%d^%d =%lld\n",x,n,result);
     return 0;
