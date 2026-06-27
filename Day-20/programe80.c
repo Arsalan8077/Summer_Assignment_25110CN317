@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a[3][3]={{1,2,3},{4,5,6},{7,8,9}};
+    int i,j,sum;
+    for (j=0;j<3;j++)
+    {
+        sum=0;
+        for (i=0;i<3;i++)
+        {
+            sum+=a[i][j];
+        }
+        printf("Sum of column %d is %d\n",j+1,sum);
+    }
+    return 0;
+}
